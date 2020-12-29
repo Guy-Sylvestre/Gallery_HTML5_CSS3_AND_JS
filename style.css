@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 35px;
+    color: brown;
+    font-weight: 600;
+}
+
+.header p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.icon {
+    margin-top: 20px;
+    padding: 5px;
+    background: linear-gradient(#df6d14, #85530f);
+}
+
+.icon .fa {
+    margin-right: 25px;
+    cursor: pointer;
+    color: aliceblue;
+    /* transition: color 1s; */
+}
+
+.icon .fa:hover {
+    color: #f0c300;
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#colomn1,
+#colomn2,
+#colomn3,
+#colomn4 {
+    width: 25%;
+}
+
+img {
+    width: 98%;
+    padding: 1%;
+}
